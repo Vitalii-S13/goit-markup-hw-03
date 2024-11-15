@@ -106,12 +106,25 @@ a {
         color: #434455;
 }
 
+
 .hero {
     background-color: #2e2f42;
-   
+    padding: 188px 0;
 }
+
+.container-hero { 
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
 .hero-title {
-    
+        
+        margin-bottom: 32px;
+        max-width: 496px;
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -122,13 +135,20 @@ a {
 
 
 .btn {
-    cursor: pointer;
+        margin: 0 auto;
+        border-radius: 4px;
+        padding: 16px 32px;
+        min-width: 169px;
+        min-height: 56px;
+        cursor: pointer;
+        background-color: #4d5ae5;
+        border: 1px solid transparent ;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     
-    background-color: #4d5ae5;
 }
 
 .btn-accent {
-    font-family: "Roboto", sans-serif;
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
