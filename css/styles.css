@@ -4,6 +4,10 @@ body {
     background-color: #ffffff;
      }
 
+img {
+    display: block;
+}
+
 /* reset */
 
 ul,
@@ -326,6 +330,7 @@ a {
 .container-portfolio-subtitle {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .portfolio-subtitle {
     margin-bottom: 8px;
