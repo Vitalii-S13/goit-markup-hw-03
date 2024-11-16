@@ -190,7 +190,8 @@ a {
 }
 
 .container-benefits {
-    padding: 120px 0 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 
@@ -228,7 +229,7 @@ a {
 }
 
 .team-title {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -236,6 +237,12 @@ a {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize
+}
+
+.container-team {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
 }
 
 .section-title {}
