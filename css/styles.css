@@ -192,9 +192,13 @@ a {
 
 }
 
-.container-benefits {
+.benefits {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.container-benefits {
+    
 }
 
 
@@ -247,8 +251,7 @@ a {
 }
 
 .section-title {
-    padding-top: 32px;
-    padding-bottom: 32px;
+   
 }
 
 .team-list {
@@ -271,7 +274,8 @@ a {
 .team-img {}
 
 .container-team-subtitle {
-    padding: 32px 16px;
+    padding-top: 32px;
+        padding-bottom: 32px;
 }
 
 .team-member {
@@ -352,10 +356,13 @@ a {
 
 .page-footer {
     background-color: #2e2f42;
+    padding-top: 100px;
+        padding-bottom: 100px;
 }
 
 .footer-logo {
     margin-bottom: 16px;
+    display: inline-block;
     
 }
 
@@ -365,9 +372,7 @@ a {
 }
 
 .container-footer {
-    display: inline-block; 
-    padding-top: 100px;
-    padding-bottom: 100px; 
+    display: block;
 
 }
 .footer-text {
